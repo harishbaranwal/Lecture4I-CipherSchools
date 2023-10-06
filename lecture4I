@@ -13,5 +13,9 @@ int main(){
     //statement (a>b)
 
     cout << (a>b && c>d); // and condition
+    cout <<endl;
     cout << (a>b || c>d); // or condition
+	
+	//c++ interprets true as 1 , false as 0
+	return 0;
 }
